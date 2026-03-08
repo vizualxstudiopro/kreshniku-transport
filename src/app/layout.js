@@ -12,10 +12,23 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Kreshniku Transport | Transport Ndërkombëtar Shqipëri ↔ Angli",
-  description: "Transport i sigurt, i shpejtë dhe i besueshëm për pako dhe mallra nga Shqipëria në Angli dhe anasjelltas. Eksperiencë që nga viti 2004.",
-  icons: {
-    icon: '/logo1.svg', // Kjo e bën logo1.svg të shfaqet si Favicon!
+  title: "Kreshniku Transport | Transport Pakosh Shqipëri - Angli - Shqipëri",
+  description: "Transport profesional dhe i sigurt pakosh e vlerash nga Shqipëria drejt Anglisë dhe anasjelltas. Nisje çdo të enjte nga Shqipëria. Shërbim i shpejtë dhe korrekt.",
+  keywords: "transport shqiperi angli, kreshniku transport, dërgesa pakosh ne angli, linja shqiperi angli, kuks londer transport, dërgesa vlerash angli, pako per angli",
+  openGraph: {
+    title: "Kreshniku Transport - Lidhja juaj e sigurt me Anglinë",
+    description: "Transportojmë pakot dhe vlerat tuaja me siguri maksimale. Nisje javore.",
+    url: "https://www.kreshnikutransport.com",
+    siteName: "Kreshniku Transport",
+    images: [
+      {
+        url: "/logo1.svg", 
+        width: 800,
+        height: 600,
+      },
+    ],
+    locale: "sq_AL",
+    type: "website",
   },
 };
 
