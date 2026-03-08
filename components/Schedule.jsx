@@ -26,14 +26,16 @@ export default function Schedule() {
             </div>
             
             <div className="p-5 space-y-4">
+              {/* Kukës */}
               <div className="flex flex-col border-b border-white/5 pb-4">
-                <span className="text-white font-medium text-sm mb-1">E Hënë</span>
+                <span className="text-white font-medium text-sm mb-1">E Hënë - E Mërkurë</span>
                 <div className="flex justify-between items-center">
                   <span className="text-gray-400 text-sm">📍 Kukës</span>
                   <span className="text-orange-400 font-mono text-sm font-medium">10:00 - 19:00</span>
                 </div>
               </div>
               
+              {/* Tiranë fillim jave */}
               <div className="flex flex-col border-b border-white/5 pb-4">
                 <span className="text-white font-medium text-sm mb-1">E Martë - E Mërkurë</span>
                 <div className="flex justify-between items-center">
@@ -42,14 +44,16 @@ export default function Schedule() {
                 </div>
               </div>
 
+              {/* Tiranë dita e nisjes */}
               <div className="flex flex-col border-b border-white/5 pb-4">
                 <span className="text-white font-medium text-sm mb-1">E Enjte</span>
                 <div className="flex justify-between items-center">
                   <span className="text-gray-400 text-sm">📍 Tiranë</span>
-                  <span className="text-orange-400 font-mono text-sm font-medium">Deri në 12:00</span>
+                  <span className="text-orange-400 font-mono text-sm font-medium">09:00 - 12:00</span>
                 </div>
               </div>
 
+              {/* Rrethet */}
               <div className="flex flex-col pb-2">
                 <span className="text-white font-medium text-sm mb-1">E Enjte</span>
                 <div className="flex justify-between items-center">
@@ -118,7 +122,7 @@ export default function Schedule() {
                   <td rowSpan={4} className="py-4 px-6 border-r border-white/5 align-top pt-8 bg-orange-500/5">
                     <span className="bg-orange-500/20 text-orange-500 font-bold px-3 py-1 rounded text-xs border border-orange-500/20">SHQIPËRI ➔ ANGLI</span>
                   </td>
-                  <td className="py-4 px-6 font-medium text-white">E Hënë</td>
+                  <td className="py-4 px-6 font-medium text-white">E Hënë - E Mërkurë</td>
                   <td className="py-4 px-6">Kukës</td>
                   <td className="py-4 px-6 font-mono text-orange-400">10:00 - 19:00</td>
                 </tr>
@@ -130,7 +134,7 @@ export default function Schedule() {
                 <tr className="hover:bg-white/5 transition-colors">
                   <td className="py-4 px-6 font-medium text-white">E Enjte</td>
                   <td className="py-4 px-6">Tiranë</td>
-                  <td className="py-4 px-6 font-mono text-orange-400">Deri në 12:00</td>
+                  <td className="py-4 px-6 font-mono text-orange-400">09:00 - 12:00</td>
                 </tr>
                 <tr className="hover:bg-white/5 transition-colors">
                   <td className="py-4 px-6 font-medium text-white">E Enjte</td>
