@@ -1,6 +1,7 @@
 import Navbar from "../../components/Navbar"
 import Hero from "../../components/Hero"
-import Popup from "../../components/Popup"
+import Popup from "../components/Popup";
+import CookieConsent from "../components/CookieConsent";
 import About from "../../components/About"
 import Services from "../../components/Services"
 import Process from "../../components/Process"
@@ -17,6 +18,7 @@ export default function Home() {
       <Navbar />
       <Popup />
       <Hero />
+      <CookieConsent />
       <About />
       <Services />
       <Process />
