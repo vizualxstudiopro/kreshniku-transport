@@ -85,7 +85,7 @@ export default function Schedule() {
               <div className="flex flex-col pb-2">
                 <div className="flex justify-between items-start mb-1">
                   <span className="text-white font-medium text-sm">E Shtunë</span>
-                  <span className="text-blue-400 font-mono text-sm font-medium">06:00 - 09:00 AM</span>
+                  <span className="text-blue-400 font-mono text-sm font-medium">06:00 - 09:00 </span>
                 </div>
                 <div className="text-gray-400 text-xs leading-tight">📍 Colindale, London, NW9 5QY</div>
               </div>
