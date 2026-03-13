@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Kreshniku Transport | Transport Pakosh Shqipëri - Angli - Shqipëri",
-  description: "Transport profesional dhe i sigurt pakosh e vlerash nga Shqipëria drejt Anglisë dhe anasjelltas. Nisje çdo të enjte nga Shqipëria. Shërbim i shpejtë dhe korrekt.",
+  description: "Transport profesional dhe i sigurt pakosh e vlerash. Nisje çdo të enjte nga Shqipëria. Grumbullimi dhe dorëzimi bëhet vetëm në pikat tona fizike.",
   keywords: "transport shqiperi angli, kreshniku transport, dërgesa pakosh ne angli, linja shqiperi angli, kuks londer transport, dërgesa vlerash angli, pako per angli",
   openGraph: {
     title: "Kreshniku Transport - Lidhja juaj e sigurt me Anglinë",

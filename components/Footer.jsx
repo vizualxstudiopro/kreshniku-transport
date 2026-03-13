@@ -10,7 +10,7 @@ export default function Footer() {
           <div className="space-y-6">
             <h3 className="text-xl font-bold text-white tracking-tight">KRESHNIKU <span className="text-orange-500">TRANSPORT</span></h3>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Lidhja juaj e sigurt dhe e shpejtë midis Shqipërisë dhe Anglisë. Transportojmë pakot dhe vlerat tuaja me korrektësi maksimale.
+              Lidhja juaj e sigurt dhe e shpejtë midis Shqipërisë dhe Anglisë. Grumbullimi dhe dorëzimi bëhet ekskluzivisht vetëm në pikat tona fizike të përcaktuara.
             </p>
             <div className="flex flex-col gap-2">
               <div className="flex items-center gap-2 text-green-500 font-medium text-sm">
@@ -36,8 +36,8 @@ export default function Footer() {
               <li className="flex items-center gap-2">📍 Tiranë</li>
               <li className="flex items-center gap-2">📍 Kukës</li>
               <li className="flex items-center gap-2">📍 Shkodër</li>
-              <li className="flex items-center gap-2 border-t border-white/5 pt-2">📍 Wood Green (N22 8JX)</li>
-              <li className="flex items-center gap-2">📍 Colindale (NW9 5QY)</li>
+              <li className="flex items-center gap-2 border-t border-white/5 pt-2 text-orange-400">📍 Wood Green (N22 8JX)</li>
+              <li className="flex items-center gap-2 text-orange-400">📍 Colindale (NW9 5QY)</li>
             </ul>
           </div>
 
@@ -56,9 +56,13 @@ export default function Footer() {
           <div className="space-y-6">
             <h4 className="text-sm font-semibold text-white uppercase tracking-widest">Na Kontaktoni</h4>
             <div className="space-y-4">
+              <a href="tel:+355686422652" className="flex items-center gap-3 text-gray-400 hover:text-orange-500 transition-colors group">
+                <div className="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-orange-500/20">📞</div>
+                <span className="font-mono text-sm">AL: +355 68 64 22 652</span>
+              </a>
               <a href="tel:+447931124257" className="flex items-center gap-3 text-gray-400 hover:text-orange-500 transition-colors group">
                 <div className="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-orange-500/20">📞</div>
-                <span className="font-mono text-sm">+44 79 31 12 42 57</span>
+                <span className="font-mono text-sm">UK: +44 79 31 12 42 57</span>
               </a>
             </div>
           </div>

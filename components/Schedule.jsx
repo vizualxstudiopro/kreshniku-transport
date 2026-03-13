@@ -9,7 +9,7 @@ export default function Schedule() {
           <h2 className="text-3xl md:text-4xl font-extrabold text-white mb-4">
             Kalendari i <span className="text-orange-500">Nisjeve</span>
           </h2>
-          <p className="text-gray-400 text-lg">Orari zyrtar i grumbullimit dhe nisjeve për çdo destinacion.</p>
+          <p className="text-gray-400 text-lg">Grumbullimi dhe dorëzimi i pakove bëhet <span className="text-white font-bold border-b border-orange-500">vetëm në pikat tona fizike</span>.</p>
         </div>
 
         {/* =========================================
@@ -26,7 +26,6 @@ export default function Schedule() {
             </div>
             
             <div className="p-5 space-y-4">
-              {/* Kukës */}
               <div className="flex flex-col border-b border-white/5 pb-4">
                 <span className="text-white font-medium text-sm mb-1">E Hënë - E Mërkurë</span>
                 <div className="flex justify-between items-center">
@@ -35,7 +34,6 @@ export default function Schedule() {
                 </div>
               </div>
               
-              {/* Tiranë fillim jave */}
               <div className="flex flex-col border-b border-white/5 pb-4">
                 <span className="text-white font-medium text-sm mb-1">E Martë - E Mërkurë</span>
                 <div className="flex justify-between items-center">
@@ -44,7 +42,6 @@ export default function Schedule() {
                 </div>
               </div>
 
-              {/* Tiranë dita e nisjes */}
               <div className="flex flex-col border-b border-white/5 pb-4">
                 <span className="text-white font-medium text-sm mb-1">E Enjte</span>
                 <div className="flex justify-between items-center">
@@ -53,7 +50,6 @@ export default function Schedule() {
                 </div>
               </div>
 
-              {/* Rrethet */}
               <div className="flex flex-col pb-2">
                 <span className="text-white font-medium text-sm mb-1">E Enjte</span>
                 <div className="flex justify-between items-center">
@@ -74,13 +70,14 @@ export default function Schedule() {
               <span className="bg-blue-500/20 text-blue-500 font-bold px-3 py-1.5 rounded text-sm border border-blue-500/20 shadow-sm inline-block mb-2">
                 ANGLI ➔ SHQIPËRI
               </span>
+              <p className="text-gray-400 text-xs mt-2">Pranojmë pako VETËM në këto 2 adresa (Jo derë më derë)</p>
             </div>
             
             <div className="p-5 space-y-4">
               <div className="flex flex-col border-b border-white/5 pb-4">
                 <div className="flex justify-between items-start mb-1">
                   <span className="text-white font-medium text-sm">E Premte</span>
-                  <span className="text-blue-400 font-mono text-sm font-medium">06:00 - 09:00</span>
+                  <span className="text-blue-400 font-mono text-sm font-medium">17:00 - 20:00</span>
                 </div>
                 <div className="text-gray-400 text-xs">📍 272 High Road, Wood Green, N22 8JX</div>
               </div>
@@ -88,7 +85,7 @@ export default function Schedule() {
               <div className="flex flex-col pb-2">
                 <div className="flex justify-between items-start mb-1">
                   <span className="text-white font-medium text-sm">E Shtunë</span>
-                  <span className="text-blue-400 font-mono text-sm font-medium">06:00 - 09:00</span>
+                  <span className="text-blue-400 font-mono text-sm font-medium">06:00 - 09:00 AM</span>
                 </div>
                 <div className="text-gray-400 text-xs leading-tight">📍 Colindale, London, NW9 5QY</div>
               </div>
@@ -148,16 +145,19 @@ export default function Schedule() {
                 {/* UK -> AL */}
                 <tr className="hover:bg-white/5 transition-colors">
                   <td rowSpan={2} className="py-4 px-6 border-r border-white/5 align-top pt-8 bg-blue-500/5">
-                    <span className="bg-blue-500/20 text-blue-500 font-bold px-3 py-1 rounded text-xs border border-blue-500/20">ANGLI ➔ SHQIPËRI</span>
+                    <div className="flex flex-col gap-2 items-start">
+                      <span className="bg-blue-500/20 text-blue-500 font-bold px-3 py-1 rounded text-xs border border-blue-500/20">ANGLI ➔ SHQIPËRI</span>
+                      <span className="text-[10px] text-gray-400 leading-tight">(Vetëm në 2 pika fizike. Jo derë më derë)</span>
+                    </div>
                   </td>
                   <td className="py-4 px-6 font-medium text-white">E Premte</td>
                   <td className="py-4 px-6">Wood Green, N22 8JX (272 High Road)</td>
-                  <td className="py-4 px-6 font-mono text-blue-400">06:00 - 09:00</td>
+                  <td className="py-4 px-6 font-mono text-blue-400">17:00 - 20:00</td>
                 </tr>
                 <tr className="hover:bg-white/5 transition-colors">
                   <td className="py-4 px-6 font-medium text-white">E Shtunë</td>
                   <td className="py-4 px-6">Colindale, London, NW9 5QY (Grahame Park Way)</td>
-                  <td className="py-4 px-6 font-mono text-blue-400">06:00 - 09:00</td>
+                  <td className="py-4 px-6 font-mono text-blue-400">06:00 - 09:00 AM</td>
                 </tr>
                 <tr className="bg-gradient-to-r from-blue-700 to-blue-600 text-white font-bold">
                   <td colSpan={4} className="py-4 px-6 text-center tracking-widest uppercase text-xs">📦 NISJA DREJT SHQIPËRISË: E SHTUNË ORA 10:00</td>
