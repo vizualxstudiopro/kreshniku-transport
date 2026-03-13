@@ -157,7 +157,7 @@ export default function Schedule() {
                 <tr className="hover:bg-white/5 transition-colors">
                   <td className="py-4 px-6 font-medium text-white">E Shtunë</td>
                   <td className="py-4 px-6">Colindale, London, NW9 5QY (Grahame Park Way)</td>
-                  <td className="py-4 px-6 font-mono text-blue-400">06:00 - 09:00 AM</td>
+                  <td className="py-4 px-6 font-mono text-blue-400">06:00 - 09:00 </td>
                 </tr>
                 <tr className="bg-gradient-to-r from-blue-700 to-blue-600 text-white font-bold">
                   <td colSpan={4} className="py-4 px-6 text-center tracking-widest uppercase text-xs">📦 NISJA DREJT SHQIPËRISË: E SHTUNË ORA 10:00</td>
